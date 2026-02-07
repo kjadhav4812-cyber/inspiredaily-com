@@ -14,6 +14,7 @@ const categoryColors: Record<string, string> = {
   wisdom: 'bg-blue-100 text-blue-800',
   courage: 'bg-rose-100 text-rose-800',
   perseverance: 'bg-violet-100 text-violet-800',
+  hindi: 'bg-orange-100 text-orange-800',
 };
 
 const QuoteCard = ({ quote, index }: QuoteCardProps) => {
