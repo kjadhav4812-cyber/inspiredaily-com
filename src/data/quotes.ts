@@ -5,7 +5,7 @@ export interface Quote {
   category: Category;
 }
 
-export type Category = 'motivation' | 'success' | 'wisdom' | 'courage' | 'perseverance';
+export type Category = 'motivation' | 'success' | 'wisdom' | 'courage' | 'perseverance' | 'hindi';
 
 export const categories: { value: Category; label: string }[] = [
   { value: 'motivation', label: 'Motivation' },
@@ -13,6 +13,7 @@ export const categories: { value: Category; label: string }[] = [
   { value: 'wisdom', label: 'Wisdom' },
   { value: 'courage', label: 'Courage' },
   { value: 'perseverance', label: 'Perseverance' },
+  { value: 'hindi', label: 'हिंदी' },
 ];
 
 export const quotes: Quote[] = [
@@ -111,6 +112,54 @@ export const quotes: Quote[] = [
     text: "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
     author: "Ralph Waldo Emerson",
     category: "motivation"
+  },
+  {
+    id: 17,
+    text: "कर्म करो, फल की चिंता मत करो।",
+    author: "भगवद्गीता",
+    category: "hindi"
+  },
+  {
+    id: 18,
+    text: "जो व्यक्ति अपने क्रोध को जीत लेता है, वह सबसे बड़ा योद्धा है।",
+    author: "महात्मा गांधी",
+    category: "hindi"
+  },
+  {
+    id: 19,
+    text: "सपने वो नहीं जो आप सोते समय देखते हैं, सपने वो हैं जो आपको सोने नहीं देते।",
+    author: "ए.पी.जे. अब्दुल कलाम",
+    category: "hindi"
+  },
+  {
+    id: 20,
+    text: "खुद वो बदलाव बनिए जो आप दुनिया में देखना चाहते हैं।",
+    author: "महात्मा गांधी",
+    category: "hindi"
+  },
+  {
+    id: 21,
+    text: "असफलता तब होती है जब आप कोशिश करना बंद कर देते हैं।",
+    author: "स्वामी विवेकानंद",
+    category: "hindi"
+  },
+  {
+    id: 22,
+    text: "उठो, जागो और तब तक मत रुको जब तक लक्ष्य प्राप्त न हो जाए।",
+    author: "स्वामी विवेकानंद",
+    category: "hindi"
+  },
+  {
+    id: 23,
+    text: "जीवन में कठिनाइयाँ हमें बर्बाद करने नहीं आतीं, बल्कि हमारी छिपी हुई शक्ति को बाहर निकालने आती हैं।",
+    author: "ए.पी.जे. अब्दुल कलाम",
+    category: "hindi"
+  },
+  {
+    id: 24,
+    text: "मन के हारे हार है, मन के जीते जीत।",
+    author: "लोकोक्ति",
+    category: "hindi"
   },
 ];
 
